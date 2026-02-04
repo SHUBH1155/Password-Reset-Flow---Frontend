@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, 
+    #a8e6cf,  
+    #ffd3b6,   
+    #fff9c4,   
+    #81d4fa    
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.auth-card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 25px 30px;
+  width: 100%;
+  max-width: 420px;
+}
+
+
+.auth-input {
+  width: 100%;
+  padding: 6px 8px;   
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px rgba(76,175,80,0.2);
+}
+
+
+.auth-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 2px;     
+  background: #fff9c4; 
+  color: #00796b;      
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-btn:hover {
+  background: #ffecb3;
+  color: #004d40;
+  transform: translateY(-1px);
+}
+
+.back-btn {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #00796b;
+  color: #00796b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.back-btn:hover {
+  background: #e0f2f1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.auth-bg {
+  background: linear-gradient(135deg, 
+    #81d4fa,   
+    #a8e6cf,   
+    #fff9c4,   
+    #ffd3b6   
+  );
+}
+
