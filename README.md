@@ -1,3 +1,6 @@
+$ -- This is my video link to proof my project is working -
+c:\Users\user\Videos\Captures\password-reset-frontend - Google Chrome 2026-02-06 19-25-07.mp4
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
